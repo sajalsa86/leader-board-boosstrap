@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderbord with bootstrap</title>
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/81b6252507.js" crossorigin="anonymous"></script>
+    <!-- bootstrap main css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body style="background-color: #E5E5E5;">
+    <!-- start header section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #562EFF; height: 94px;">
+            <div class="container">
+                <a class="navbar-brand d-flex d-flex align-items-center" href="#">
+                    <img src="images/icons/logo.png" alt="Logo" width="41" height="51"
+                        class="d-inline-block align-text-top">
+                    <span class="ms-3">Idea</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="images/icons/profile.png" alt="profile" width="51" height="51"
+                                    class="d-inline-block align-text-top">
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- start carosel -->
+    <div id="carouselExampleCaptions" class="carousel slide container">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carosel/img (1).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carosel/img (2).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carosel/img (3).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carosel/img (4).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carosel/img (5).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- end carosel -->
+    <!-- header section is close -->
+    <!-- start main section -->
+    <main>
+        <section class="container rounded" style="background-color: #FFFFFF;">
+            <div class="top-player pb-3 mx-3">
+                <h4 class="text-primary mt-4 py-4">Top Player</h4>
+                <div class="row gy-4">
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center">
+                        <img src="images/players/player-1.png" width="56" height="56" alt="">
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center">
+                        <img src="images/players/player-2.png" width="56" height="56" alt="">
+                        <h4 class="ms-3">Pro Rasel</h4>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center">
+                        <img src="images/players/player-3.png" width="56" height="56" alt="">
+                        <h4 class="ms-3">John Smith2</h4>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center">
+                        <img src="images/players/player-4.png" width="56" height="56" alt="">
+                        <h4 class="ms-3">Shajedul Karim</h4>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center">
+                        <img src="images/players/player-5.png" width="56" height="56" alt="">
+                        <h4 class="ms-3">Maruf Ahmed</h4>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center">
+                        <img src="images/players/player-6.png" width="56" height="56" alt="">
+                        <h4 class="ms-3">Mujahid</h4>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- top player section is close -->
+            <!-- Top Blog section is start -->
+            <div class="top-blog pb-4 mx-3">
+                <h4 class="text-primary py-4">Top Blog</h4>
+                <div class="row g-4">
+                    <!-- first blog start -->
+                    <div class="col-md-12 col-lg-6 d-flex">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <img src="images/blogs/blog-1.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="ps-2 col-12 col-md-6">
+                                <h4>13 of My Favorite UI/UX Goodies</h4>
+                                <p><span class="text-muted">By</span> <a style="color: #562EFF;"
+                                        class="nav-link d-inline-block" href="#">Danny Sapio</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- first blog close -->
+                    <!-- secound blog start -->
+                    <div class="col-md-12 col-lg-6 d-flex">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <img src="images/blogs/blog-2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="ps-2 col-12 col-md-6">
+                                <h4>UI cheat sheet: list vs grids</h4>
+                                <p><span class="text-muted">By</span> <a style="color: #562EFF;"
+                                        class="nav-link d-inline-block" href="#">Tess Gadd</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- secound blog close -->
+                    <!-- third blog start -->
+                    <div class="col-md-12 col-lg-6 d-flex">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <img src="images/blogs/blog-3.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-2 col-12 col-md-6">
+                                <h4>7 typography tips for interface design</h4>
+                                <p><span class="text-muted">By</span> <a style="color: #562EFF;"
+                                        class="nav-link d-inline-block" href="#">Jeremiah Lam</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third blog close -->
+                    <!-- foruth blog start -->
+                    <div class="col-md-12 col-lg-6 d-flex">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <img src="images/blogs/blog-4.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-2 col-12 col-md-6">
+                                <h4>13 of My Favorite UI/UX Goodies</h4>
+                                <p><span class="text-muted">By</span> <a style="color: #562EFF;"
+                                        class="nav-link d-inline-block" href="#">Ferdinand Vogler</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- foruth blog close -->
+                </div>
+            </div>
+        </section>
+        <!-- top section close -->
+        <!-- Lates Course section is start -->
+        <section class="container rounded mt-4" style="background-color: #FFFFFF;">
+            <div class="Lates-Course mx-3">
+                <h4 class="text-primary py-4">Lates Course</h4>
+                <div class="row g-4">
+                    <!-- Lates-Course 1 start -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="images/courses/course-1.png" class="img-fluid" alt="">
+                        <div>
+                            <h4 class="mt-3">React - The Complete</h4>
+                            <h4>Guide 2023</h4>
+                            <h5 style="color: #ED6B4F">Reed Krakoff.</h5>
+                            <p style="color: #FFC014;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="text-muted"><i class="fa-solid fa-star"></i></span>
+                                <span class="ms-2 text-muted">4.5</span>
+                                <span class="rounded-pill p-1" style="color: #FF4A60; background-color: #815349;"><i
+                                        class="fa-regular fa-clock"></i> 01.30 hr</span>
+
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Lates-Course 1 close -->
+                    <!-- Lates-Course 2 start -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="images/courses/course-2.png" class="img-fluid" alt="">
+                        <div>
+                            <h4 class="mt-3">React - The Complete</h4>
+                            <h4>Guide 2023</h4>
+                            <h5 style="color: #ED6B4F">Reed Krakoff.</h5>
+                            <p style="color: #FFC014;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="text-muted"><i class="fa-solid fa-star"></i></span>
+                                <span class="ms-2 text-muted">4.5</span>
+                                <span class="rounded-pill p-1" style="color: #FF4A60; background-color: #815349;"><i
+                                        class="fa-regular fa-clock"></i> 01.30 hr</span>
+
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Lates-Course 2 close -->
+                    <!-- Lates-Course 3 start -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="images/courses/course-3.png" class="img-fluid" alt="">
+                        <div>
+                            <h4 class="mt-3">React - The Complete</h4>
+                            <h4>Guide 2023</h4>
+                            <h5 style="color: #ED6B4F">Reed Krakoff.</h5>
+                            <p style="color: #FFC014;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="text-muted"><i class="fa-solid fa-star"></i></span>
+                                <span class="ms-2 text-muted">4.5</span>
+                                <span class="rounded-pill p-1" style="color: #FF4A60; background-color: #815349;"><i
+                                        class="fa-regular fa-clock"></i> 01.30 hr</span>
+
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Lates-Course 2 close -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- bootstrap main js  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
